@@ -61,6 +61,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 80px 100px 0;
+    filter: blur(4px);
 }
 
 .home .content{
