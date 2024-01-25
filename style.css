@@ -50,23 +50,30 @@
     transform: scaleX(1);
 }
 
+.bg-image {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: url('cup-coffee-with-pile-coffee-beans.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    filter: drop-shadow(30%) ;
+}
 .home{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('cup-coffee-with-pile-coffee-beans.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px 100px 0;
-    filter: blur(4px);
 }
 
 .home .content{
     max-width: 600px;
-    color: #a57862;
+    color: #a07442;
+    text-shadow: 1px 1px #080808;
 }
 
 .content h2{
@@ -76,21 +83,22 @@
 
 .content p{
     margin: 10px 0 40px;
-    color: #6b4d25;
+    color: #aa906a;
+    text-shadow: 0px 1px #030202;
 }
 
 .content a{
-    color: #fff;
+    color: #968670;
     text-decoration: none;
     border: 2px solid #fff;
     font-weight: 500;
     padding: 10px 40px;
     border-radius: 40px;
-    transition: .5s;
+    transition: .4s;
 }
 
 .content a:hover{
-    background: #1c0b0a;
+    background: #251211;
 }
 
 .home .wrapper-login{
