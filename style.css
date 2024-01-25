@@ -58,7 +58,6 @@
     background-size: cover;
     background-position: center;
     filter: blur(3px);
-    filter: drop-shadow(30%) ;
 }
 .home{
     position: relative;
